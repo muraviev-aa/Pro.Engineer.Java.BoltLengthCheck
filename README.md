@@ -1,7 +1,7 @@
 ## Pro.Engineer.Java.BoltLengthCheck
 ### Настольное приложение предназначено для проверки длины болта.
 
-<img src="images/dialog.png" alt="drawing" width="550"/>
+<img src="images/dialog.png" alt="drawing" width="650"/>
 
 ### Предусмотрено следующее расположение шайб: 
 
