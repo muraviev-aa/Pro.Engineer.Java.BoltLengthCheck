@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.Bolt">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="828" height="849"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="3997b" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="16" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="7a251" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Расчет длины болта"/>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16" style="1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="5b506" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="c3582" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="line" title="Резьба" title-justification="2">
+                      <font name="Courier New" size="16" style="1"/>
+                    </border>
+                    <children>
+                      <component id="64828" class="javax.swing.JTextField" binding="textField11">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <font name="Courier New" size="18" style="1"/>
+                          <horizontalAlignment value="0"/>
+                        </properties>
+                      </component>
+                      <grid id="d8735" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="5" left="5" bottom="5" right="5"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <component id="b1062" class="javax.swing.JTextField" binding="textField12">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <editable value="false"/>
+                              <font name="Courier New" size="16" style="1"/>
+                              <horizontalAlignment value="0"/>
+                            </properties>
+                          </component>
+                          <component id="84579" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <text value="Шаг резьбы [мм]"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="67c2b" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <component id="8a4bf" class="javax.swing.JTextField" binding="textField13">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <editable value="false"/>
+                              <font name="Courier New" size="16" style="1"/>
+                              <horizontalAlignment value="0"/>
+                            </properties>
+                          </component>
+                          <component id="5937f" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <text value="Длина резьбы [мм]"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="d401f" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <component id="96324" class="javax.swing.JTextField" binding="textField9">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <editable value="false"/>
+                              <font name="Courier New" size="16" style="1"/>
+                              <foreground color="-14799431"/>
+                              <horizontalAlignment value="0"/>
+                            </properties>
+                          </component>
+                          <component id="d1291" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <foreground color="-14799431"/>
+                              <text value="Резьбовой конец [мм]"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="c332a" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <component id="5dc5c" class="javax.swing.JTextField" binding="textField10">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <editable value="false"/>
+                              <font name="Courier New" size="16" style="1"/>
+                              <horizontalAlignment value="0"/>
+                            </properties>
+                          </component>
+                          <component id="bf598" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <text value="Шаг резьбы + фаска [мм]"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="c82b1" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <component id="94aec" class="javax.swing.JTextField" binding="textField15" default-binding="true">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <editable value="false"/>
+                              <font name="Courier New" size="16" style="1"/>
+                              <horizontalAlignment value="0"/>
+                            </properties>
+                          </component>
+                          <component id="d2f69" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <text value="Фаска [мм]"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="eb792" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Courier New" size="16" style="1"/>
+                    </properties>
+                    <border type="line" title="Резьба" title-justification="2">
+                      <font name="Courier New" size="16" style="1"/>
+                      <title-color color="-14799431"/>
+                      <color color="-14799431"/>
+                    </border>
+                    <children>
+                      <grid id="9925e" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <component id="611f3" class="javax.swing.JTextField" binding="textField3">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <editable value="false"/>
+                              <font name="Courier New" size="16" style="1"/>
+                              <foreground color="-14799431"/>
+                              <horizontalAlignment value="0"/>
+                            </properties>
+                          </component>
+                          <component id="a1b06" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <foreground color="-14799431"/>
+                              <text value="в шайбе [мм]"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="f791f" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <component id="580fa" class="javax.swing.JTextField" binding="textField2">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <editable value="false"/>
+                              <font name="Courier New" size="16" style="1"/>
+                              <foreground color="-14799431"/>
+                              <horizontalAlignment value="0"/>
+                            </properties>
+                          </component>
+                          <component id="da22b" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <foreground color="-14799431"/>
+                              <text value="в пакете [мм]"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="f4d1b" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="ee87d" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="line" title="Каталог" title-justification="2">
+                      <font name="Courier New" size="16" style="1"/>
+                    </border>
+                    <children>
+                      <component id="bdf9c" class="javax.swing.JButton" binding="table">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="Таблица"/>
+                        </properties>
+                      </component>
+                      <grid id="74ece" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="5" left="5" bottom="5" right="5"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <component id="94349" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <horizontalAlignment value="0"/>
+                            </properties>
+                          </component>
+                          <component id="910c8" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <text value="Длина болта [мм]"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                  <grid id="e9cba" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="line" title="PDF" title-justification="2">
+                      <font name="Courier New" size="16" style="1"/>
+                    </border>
+                    <children>
+                      <grid id="a0e29" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="5" left="5" bottom="5" right="5"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <component id="80532" class="javax.swing.JTextField" binding="textField14">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <horizontalAlignment value="0"/>
+                            </properties>
+                          </component>
+                          <component id="f81e4" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <text value="Соед. марки"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="6764e" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="5" left="5" bottom="5" right="5"/>
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <component id="518a4" class="javax.swing.JTextField" binding="path">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="14" style="1"/>
+                              <horizontalAlignment value="0"/>
+                              <text value="D:/PDF/text.pdf"/>
+                            </properties>
+                          </component>
+                          <component id="513a8" class="javax.swing.JLabel">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <text value="Путь"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="95d28" class="javax.swing.JButton" binding="button6">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="Создать"/>
+                        </properties>
+                      </component>
+                      <component id="eec4c" class="javax.swing.JCheckBox" binding="checkBox1">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="добавить эскиз"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="ddd96" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="line" title="Результат" title-justification="2">
+                      <font name="Courier New" size="16" style="1"/>
+                    </border>
+                    <children>
+                      <component id="7085e" class="javax.swing.JButton" binding="button5">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="Вычислить"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="1507" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="line" title="Сброс" title-justification="2">
+                      <font name="Courier New" size="16" style="1"/>
+                    </border>
+                    <children>
+                      <component id="81a51" class="javax.swing.JButton" binding="button2">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="всех полей"/>
+                        </properties>
+                      </component>
+                      <component id="4de38" class="javax.swing.JButton" binding="button3">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="данных таблицы"/>
+                        </properties>
+                      </component>
+                      <component id="6a1d7" class="javax.swing.JButton" binding="button4">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="толщин в пакете"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="b196f" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="5" left="5" bottom="5" right="5"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="line" title="Схема" title-justification="2">
+                  <font name="Courier New" size="16" style="1"/>
+                </border>
+                <children>
+                  <grid id="5e18f" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="816d6" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="wash.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="af901" class="javax.swing.JLabel" binding="label222">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="wash1.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="562cc" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="nut.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="3c644" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="f6f6" class="javax.swing.JLabel" binding="label111">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="wash1.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="ec156" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="h_b.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="99e3" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="92587" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="body.png"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <vspacer id="a924d">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <vspacer id="75270">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                </children>
+              </grid>
+              <grid id="ee3fa" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="e37fd" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="line" title="Шайба под головкой [мм]" title-justification="2">
+                      <font name="Courier New" size="16" style="1"/>
+                    </border>
+                    <children>
+                      <component id="490a3" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <font name="Courier New" size="16" style="1"/>
+                          <horizontalAlignment value="0"/>
+                        </properties>
+                      </component>
+                      <component id="44402" class="javax.swing.JCheckBox" binding="checkbox1">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="редактировать"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="44a5" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="line" title="Гайки [мм]" title-justification="2">
+                      <font name="Courier New" size="16" style="1"/>
+                    </border>
+                    <children>
+                      <component id="5bbb" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <font name="Courier New" size="16" style="1"/>
+                          <horizontalAlignment value="0"/>
+                        </properties>
+                      </component>
+                      <component id="1f2c5" class="javax.swing.JTextField" binding="textField8" default-binding="true">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <font name="Courier New" size="16" style="1"/>
+                          <horizontalAlignment value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="a8666" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="line" title="Пакет соед. деталей [мм]" title-justification="2">
+                      <font name="Courier New" size="16" style="1"/>
+                    </border>
+                    <children>
+                      <component id="bec07" class="javax.swing.JTextField" binding="pTextField1">
+                        <constraints>
+                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <horizontalAlignment value="0"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="17082" class="javax.swing.JTextField" binding="pTextField2">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <horizontalAlignment value="0"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="2c3ba" class="javax.swing.JTextField" binding="pTextField3">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <horizontalAlignment value="0"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="5c723" class="javax.swing.JTextField" binding="pTextField4">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <horizontalAlignment value="0"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="20fdb" class="javax.swing.JTextField" binding="pTextField5">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <horizontalAlignment value="0"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="2b376" class="javax.swing.JTextField" binding="pTextField6">
+                        <constraints>
+                          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <horizontalAlignment value="0"/>
+                          <text value="0"/>
+                        </properties>
+                      </component>
+                      <component id="f2bb1" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="1"/>
+                        </properties>
+                      </component>
+                      <component id="76271" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="2"/>
+                        </properties>
+                      </component>
+                      <component id="ab120" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="3"/>
+                        </properties>
+                      </component>
+                      <component id="4da41" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="4"/>
+                        </properties>
+                      </component>
+                      <component id="7d311" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="5"/>
+                        </properties>
+                      </component>
+                      <component id="a9f11" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="6"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="9eec5" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="line" title="Шайбы под гайками [мм]" title-justification="2">
+                      <font name="Courier New" size="16" style="1"/>
+                    </border>
+                    <children>
+                      <grid id="ef675" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="5" left="5" bottom="5" right="5"/>
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties/>
+                        <border type="etched"/>
+                        <children>
+                          <component id="33d1d" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+                            <constraints>
+                              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                                <preferred-size width="150" height="-1"/>
+                              </grid>
+                            </constraints>
+                            <properties>
+                              <editable value="false"/>
+                              <font name="Courier New" size="16" style="1"/>
+                              <horizontalAlignment value="0"/>
+                            </properties>
+                          </component>
+                          <component id="c12a5" class="javax.swing.JCheckBox" binding="checkbox2">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                            </constraints>
+                            <properties>
+                              <font name="Courier New" size="16" style="1"/>
+                              <text value="редактировать"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <component id="3c7d5" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <editable value="false"/>
+                          <font name="Courier New" size="16" style="1"/>
+                          <horizontalAlignment value="0"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="27c88" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="5" left="5" bottom="5" right="5"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="line" title="Верхняя и нижняя" title-justification="2">
+                      <font name="Courier New" size="16" style="1"/>
+                    </border>
+                    <children>
+                      <component id="ca8e8" class="javax.swing.JCheckBox" binding="checkbox3">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="редактировать"/>
+                        </properties>
+                      </component>
+                      <component id="c3278" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Courier New" size="16" style="1"/>
+                          <text value="шайба"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+      <grid id="48fa5" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line" title="Предупреждения" title-justification="2">
+          <font name="Courier New" size="16" style="1"/>
+          <title-color color="-4515297"/>
+          <color color="-4515297"/>
+        </border>
+        <children>
+          <grid id="2ba41" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="line" title="Гайка" title-justification="2">
+              <font name="Courier New" size="16" style="1"/>
+              <title-color color="-4515297"/>
+              <color color="-4515297"/>
+            </border>
+            <children>
+              <component id="1b4a" class="javax.swing.JLabel" binding="label100">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16" style="1"/>
+                  <foreground color="-4515297"/>
+                  <text value="Не закрутится гайка"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="ab9ed" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="line" title="Резьба в пакете" title-justification="2">
+              <font name="Courier New" size="16" style="1"/>
+              <title-color color="-4515297"/>
+              <color color="-4515297"/>
+            </border>
+            <children>
+              <component id="efab2" class="javax.swing.JLabel" binding="label200">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16" style="1"/>
+                  <foreground color="-4515297"/>
+                  <text value="Больше 0.5 толщины "/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="1e7bf" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="line" title="Резьбовой конец" title-justification="2">
+              <font name="Courier New" size="16" style="1"/>
+              <title-color color="-4515297"/>
+              <color color="-4515297"/>
+            </border>
+            <children>
+              <component id="6bf9a" class="javax.swing.JLabel" binding="label300">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Courier New" size="16" style="1"/>
+                  <foreground color="-4515297"/>
+                  <text value="Короткий"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
