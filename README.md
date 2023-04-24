@@ -43,7 +43,7 @@
 <details>
   <summary>проверка величины захода резьбы в соединяемую деталь</summary>
   <ol>
-    <img src="images/pack.png" alt="drawing" width="300"/>
+    <img src="images/pack.png" alt="drawing" width="400"/>
   </ol>
 </details>
 
@@ -51,7 +51,7 @@
 <details>
   <summary>проверка возможности закрутить гайку</summary>
   <ol>
-    <img src="images/nut.png" alt="drawing" width="300"/>
+    <img src="images/nut.png" alt="drawing" width="400"/>
   </ol>
 </details>
 
@@ -59,7 +59,7 @@
 <details>
   <summary>проверка длины резьбового конца болта, выступающего из гайки</summary>
   <ol>
-    <img src="images/short.png" alt="drawing" width="300"/>
+    <img src="images/short.png" alt="drawing" width="400"/>
   </ol>
 </details>
 
@@ -73,7 +73,7 @@
 <details>
   <summary>Пример отчета без ошибки подбора длины болта</summary>
   <ol>
-    <img src="images/example.png" alt="drawing" width="250"/>
+    <img src="images/example.png" alt="drawing" width="450"/>
   </ol>
 </details>
 
@@ -81,6 +81,6 @@
 <details>
   <summary>Пример отчета с ошибкой подбора длины болта</summary>
   <ol>
-    <img src="images/no_spin.png" alt="drawing" width="250"/>
+    <img src="images/no_spin.png" alt="drawing" width="450"/>
   </ol>
 </details>
