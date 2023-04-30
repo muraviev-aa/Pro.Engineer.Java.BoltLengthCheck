@@ -9,7 +9,9 @@
 ***указав в строках 1, 2, 3, 4, 5 суммарную толщину деталей.***
 
 ***Щелкните на значке***
-<img src="images/triangle.png" style="margin-bottom: -20px;" alt="drawing" width="25"/>
+
+<img src="images/triangle.png" style="margin-bottom: 0px;" alt="drawing" width="25"/>
+
 ***и получите картинку со справочной информацией.***
 
 ### Предусмотрено следующее расположение шайб: 
