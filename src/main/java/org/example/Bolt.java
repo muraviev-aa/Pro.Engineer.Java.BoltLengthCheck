@@ -438,6 +438,7 @@ public class Bolt extends JFrame {
         Paragraph paragraph7 = new Paragraph(paraText7);
 
         PdfWriter pdfWriter = new PdfWriter(path.getText());
+
         PdfDocument pdfDocument = new PdfDocument(pdfWriter);
 
         /**
