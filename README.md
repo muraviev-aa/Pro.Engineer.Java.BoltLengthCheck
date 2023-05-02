@@ -3,7 +3,7 @@
 ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
 ## Pro.Engineer.Java.BoltLengthCheck
 <a name="readme-top"></a>
-### Настольное приложение предназначено для проверки длины болта.
+### Настольное приложение для проверки длины болта.
 
 #### Цель разработки: проверка болтового соединения на соответствие СП 16.13330.2017 (п. 14.2.5),
 #### СП 70.13330.2012 (п. 4.5.4, п. 4.5.7).
