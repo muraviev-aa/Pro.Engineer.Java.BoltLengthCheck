@@ -97,7 +97,7 @@
 - размер фаски на конце болта
 
 <p align="center">
-<img src="images/table.png" alt="drawing" width="420"/>
+<img src="images/table.png" alt="drawing" width="500"/>
 </p>
 
 ### Примеры отчетов, сгенерированных приложением в pdf:
